@@ -4,3 +4,11 @@
 
 #include "CoreMinimal.h"
 
+UENUM(BlueprintType)
+enum class EF4AbilityInputID : uint8
+{
+	None,
+	Confirm,
+	Cancel,
+	Fire
+};
